@@ -1,2 +1,1 @@
-React native testing using
-Jest and ReactNativeLibrary
+RN Apps using Redux-Core
