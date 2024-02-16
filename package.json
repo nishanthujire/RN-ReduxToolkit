@@ -13,6 +13,7 @@
     "@react-native-async-storage/async-storage": "^1.22.0",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/stack": "^6.3.20",
+    "@reduxjs/toolkit": "^2.2.1",
     "@shopify/flash-list": "^1.6.3",
     "axios": "^1.6.7",
     "radio-buttons-react-native": "^1.0.4",
