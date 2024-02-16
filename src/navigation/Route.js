@@ -1,23 +1,15 @@
+import {NavigationContainer} from '@react-navigation/native';
+import Home from '../screens/Home';
+import {createStackNavigator} from '@react-navigation/stack';
 
-import { NavigationContainer } from '@react-navigation/native';
-import { createSharedElementStackNavigator } from 'react-navigation-shared-element';
-import YtScrollView from '../screens/YtScrollView';
-const Stack = createSharedElementStackNavigator();
+const Stack = createStackNavigator();
 
 export default function Routes() {
-    return (
-        <NavigationContainer>
-            <Stack.Navigator
-                mode="modal"
-                screenOptions={{ headerShown: false }}>
-                <Stack.Screen name="Products" component={YtScrollView} />
-
-                  
-
-
-               
-
-            </Stack.Navigator>
-        </NavigationContainer >
-    );
+  return (
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{headerShown:false}}>
+        <Stack.Screen name="Home" component={Home} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }
